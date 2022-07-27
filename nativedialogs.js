@@ -6,13 +6,13 @@ const result = document.getElementById('result');
 
 
 function alertNote(){
-  window.alert("Alert!");
+  window.alert("Alert pressed!");
 }
 function confirmNote(){
   if(window.confirm("Do you confirm this?")){
-    result.innerText = "Confirm result: true";
+    result.innerText = "The value returned by the confirm method is : true";
   }else{
-    result.innerText = "Confirm result: false";
+    result.innerText = "The value returned by the confirm method is : false";
   }
 
 }

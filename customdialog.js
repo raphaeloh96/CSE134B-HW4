@@ -14,6 +14,6 @@ export function promptNote(){
   if(userName){
     document.getElementById("result").innerText=`Prompt result: ${userName}`;
   }else{
-    document.getElementById("result").innerText=`User didn't input anything`;
+    document.getElementById("result").innerText=`Prompt result: User didn't input anything`;
   }
 }
